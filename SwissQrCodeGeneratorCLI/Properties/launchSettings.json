@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SwissQrCodeGeneratorCLI": {
+      "commandName": "Project",
+      "commandLineArgs": "--amount 390 --iban CH4431999123000889012 --currency CHF --language DE --format SVG --outputsize QrBillOnly --message \"Rechnung für xy\" --reference \"210000000003139471430009017\" --creditor_name \"Rachel Maurer\" creditor_address1 \"Sennhüttenstrasse 22a\" --creditor_address2 \"8903 Birmensdorf\" --creditor_countrycode \"CH\" --savepath \"C:\\temp\\qrcode.svg\""
+    }
+  }
+}
