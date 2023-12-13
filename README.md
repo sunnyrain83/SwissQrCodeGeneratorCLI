@@ -1,5 +1,7 @@
 Command Line interface for creating Swiss QR Invoices
 
+Draft - not all properties are supported yet.
+
 Based on work from 
 - https://github.com/manuelbl/SwissQRBill.NET
 - https://github.com/commandlineparser/commandline
