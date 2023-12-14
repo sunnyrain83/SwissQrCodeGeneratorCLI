@@ -29,7 +29,7 @@ internal class Program
         [Option('p',"savepath",Required =true,HelpText ="local path to save file")]
         public string SavePath { get; set; }
 
-        [Option('r',"reference",Required =true,HelpText ="valid reference number")]
+        [Option('r',"reference",Required =false,HelpText ="valid reference number")]
         public string Reference { get; set; }
 
         [Option('m',"message",Required =false, HelpText="message on Invoice")]
@@ -39,7 +39,7 @@ internal class Program
         public string CreditorName { get; set; }
 
         [Option("creditor_address1",Required =false)]
-        public string CreditorAdress1 { get;}
+        public string CreditorAdress1 { get;set; }
 
         [Option("creditor_address2",Required =false)]
         public string CreditorAdress2 { get; set; }
