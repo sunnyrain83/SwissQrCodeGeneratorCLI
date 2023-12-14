@@ -39,7 +39,7 @@ internal class Program
         public string CreditorName { get; set; }
 
         [Option("creditor_address1",Required =false)]
-        public string CreditorAdress1 { get;set; }
+        public string CreditorAdress1 { get; set; }
 
         [Option("creditor_address2",Required =false)]
         public string CreditorAdress2 { get; set; }
